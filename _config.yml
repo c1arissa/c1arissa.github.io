@@ -4,8 +4,10 @@ theme: minima
 name: Clarissa Podell
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
 # Site settings
 title: Your awesome title
+author: c1arissa
 email: clarissapodell@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
