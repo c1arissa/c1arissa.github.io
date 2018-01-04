@@ -1,5 +1,5 @@
 #theme: jekyll-theme-minimal
-theme: jekyll-theme-slate
+theme: minima
 
 name: Clarissa Podell
 markdown: kramdown
