@@ -1,5 +1,6 @@
+theme: minimal-mistakes-jekyll
 #theme: jekyll-theme-minimal
-theme: minima
+#theme: minima
 
 name: Clarissa Podell
 markdown: kramdown
@@ -19,3 +20,4 @@ github_username: c1arissa
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-remote-theme
