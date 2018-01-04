@@ -25,7 +25,10 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            <a href="https://github.com/{{ site.author.github }}">
+          <li><i class="fa fa-github"></i><a href="https://github.com/{{ site.github_username }}">
+          {{ site.github_username %}}</a></li>
+          
+            <a href="https://github.com/{{ site.github_username }}">
             <span class="fa-stack fa-lg">
             <i class="fa fa-square-o fa-stack-2x"></i>
             <i class="fa fa-github-alt fa-stack-1x"></i>
