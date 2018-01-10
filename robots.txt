@@ -1,1 +1,3 @@
 Sitemap: https://c1arissa.github.io/sitemap.xml
+User-agent: * 
+Disallow: / 
