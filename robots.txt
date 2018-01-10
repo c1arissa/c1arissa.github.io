@@ -1,1 +1,1 @@
-Sitemap: http://example.com/sitemap_location.xml
+Sitemap: https://c1arissa.github.io/sitemap.xml
