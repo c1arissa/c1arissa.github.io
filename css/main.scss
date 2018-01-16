@@ -107,10 +107,14 @@ $on-laptop:        800px;
 			background: #fff;
 			padding: 0px;
 			font-size: 16px;
+			border: 1px solid $color-secondary;
 			//text-align: center;
 			//border: 1px solid $color-primary;
 			//border-bottom: 1px solid $color-primary;
 			//padding: 14px 16px;
+			li a.active {
+				background-color: $color-quaternary;
+			}
 		}
 		.icon {
 			width: 18px;
@@ -121,13 +125,10 @@ $on-laptop:        800px;
 		//}
 		li {
 			text-align: center;
-			border: 1px solid $color-secondary;
+			//border: 1px solid $color-secondary;
 		}
 		.navigation-item li:last-child {
 			border-bottom: none;
-		}
-		li a.active {
-			background-color: $color-quaternary;
 		}
 		.avatar {
 			padding-top: 30%;
