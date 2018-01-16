@@ -114,6 +114,9 @@ $on-laptop:        800px;
 			//border-bottom: 1px solid $color-primary;
 			//padding: 14px 16px;
 		}
+		.navigation {
+			border: 1px solid $color-secondary;
+		}
 		.icon {
 			width: 18px;
 			height: 18px;
@@ -125,7 +128,7 @@ $on-laptop:        800px;
 			text-align: center;
 			padding: 0px;
 			margin: 0px;
-			border: 1px solid $color-secondary;
+			border-bottom: 1px solid $color-secondary;
 		}
 		li a.active {
 			background-color: $color-quaternary;
