@@ -113,15 +113,15 @@ $on-laptop:        800px;
 			//padding: 14px 16px;
 		}
 		.icon {
-			width: 16px;
-			height: 16px;
+			width: 18px;
+			height: 18px;
 		}
 		//ul {
 		//	border: 1px solid $color-primary;
 		//}
 		li {
 			text-align: center;
-			border-bottom: 1px solid $color-primary;
+			border: 1px solid $color-secondary;
 		}
 		.navigation-item li:last-child {
 			border-bottom: none;
