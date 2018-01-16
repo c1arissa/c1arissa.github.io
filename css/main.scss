@@ -96,11 +96,10 @@ $on-laptop:        800px;
 		overflow: hidden;
 		padding-top: 1.0rem;
 	}
-}	
-
-@include media-query($on-palm) {
+	
+	@include media-query($on-palm) {
 	@media screen and (max-width: 600px){
-		.navigation-item, .float-left, 
+		.navigation-item, .title, .float-left, 
 		.float-right {
 			float: none;
 			display:block;
@@ -114,6 +113,10 @@ $on-laptop:        800px;
 		}
 	}
 }
+	
+}	
+
+
 
 /**
  * Body
