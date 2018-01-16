@@ -106,15 +106,13 @@ $on-laptop:        800px;
 			display:block;
 			background: #fff;
 			padding: 0px;
+			margin: 0px;
 			font-size: 16px;
-			border: 1px solid $color-secondary;
+			//border: 1px solid $color-secondary;
 			//text-align: center;
 			//border: 1px solid $color-primary;
 			//border-bottom: 1px solid $color-primary;
 			//padding: 14px 16px;
-			li a.active {
-				background-color: $color-quaternary;
-			}
 		}
 		.icon {
 			width: 18px;
@@ -125,24 +123,21 @@ $on-laptop:        800px;
 		//}
 		li {
 			text-align: center;
-			//border: 1px solid $color-secondary;
+			padding: 0px;
+			margin: 0px;
+			border: 1px solid $color-secondary;
+		}
+		li a.active {
+			background-color: $color-quaternary;
 		}
 		.navigation-item li:last-child {
 			border-bottom: none;
 		}
-		.avatar {
-			padding-top: 30%;
-		}
-		.centered {
-			width: 600px;
-		}
-		h3 {
-			font-size: 1.6rem;
+		
 		}
 	}
-}
 	
-}	
+}//navigation	
 
 
 
