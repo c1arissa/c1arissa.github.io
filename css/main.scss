@@ -126,15 +126,14 @@ $on-laptop:        800px;
 		.navigation-item li:last-child {
 			border-bottom: none;
 		}
-		li a:hover:not(.active) {
-			background-color: #555;
-			color: white;
+		li a.active {
+			background-color: $color-quaternary;
 		}
 		.avatar {
 			padding-top: 30%;
 		}
 		.centered {
-			width: auto;
+			width: 600px;
 		}
 		h3 {
 			font-size: 1.6rem;
