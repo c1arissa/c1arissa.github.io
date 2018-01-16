@@ -106,11 +106,15 @@ $on-laptop:        800px;
 			display:block;
 			background: #fff;
 			padding: 0px;
-			font-size: 14px;
+			font-size: 16px;
 			//text-align: center;
 			//border: 1px solid $color-primary;
 			//border-bottom: 1px solid $color-primary;
 			//padding: 14px 16px;
+		}
+		.icon {
+			width: 16px;
+			height: 16px;
 		}
 		//ul {
 		//	border: 1px solid $color-primary;
@@ -253,9 +257,10 @@ hr {
  */
 .icon {
 	display: inline-block;
-        width: 24px;
-        height: 24px;
-        vertical-align: middle;
+        width: 30px;
+        height: 30px;
+        vertical-align: top;
+	border:0;
 
     > svg {
         display: inline-block;
