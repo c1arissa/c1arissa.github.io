@@ -1,0 +1,56 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+    
+    <div class="container"> <!--style="border-top: 5px solid $grey-color"-->
+      
+      <div class="row">
+        
+        <div class="column">
+          <h2 class="footer-heading">{{ site.title }}</h2>
+        </div>
+
+        <div class="column">
+          <ul class="social-media-list">
+            {% if site.github_username %}
+            <li>
+                <i class="fa fa-github fa-lg"></i>
+                  <a href="https://github.com/{{ site.github_username }}"> {{ site.github_username }}</a>
+            </li>
+            {% endif %}
+
+            {% if site.twitter_username %}
+            <li>
+              {% include icon-twitter.html username=site.twitter_username %}
+            </li>
+            {% endif %}
+
+            {% if site.email %}
+            <li>
+                <i class="fa fa-envelope-o fa-lg"></i>
+                <a href="mailto:{{ site.email }}"> {{ site.email }}</a>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+        
+       <!--  <div class="column">
+          <p>{{ site.description }}</p>
+        </div> -->
+
+      </div>
+      
+       <div class="row">
+        <div class="column-50">
+          <p>{{ site.description }}</p>
+        </div>
+      </div> 
+      
+    </div>  
+  </div>
+  
+    <div class="footer">
+      {% include copyright.html %}
+    </div>
+
+</footer>
