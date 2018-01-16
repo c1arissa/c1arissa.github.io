@@ -12,9 +12,8 @@ email: clarissapodell@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Personal site to showcase my academic work, side-projects, and interests for personal and professional use.
 #baseurl: "https://c1arissa.github.io/minimal" # the subpath of your site, e.g. /blog
-baseurl: "/minimal" # the subpath of your site, e.g. /blog
-url: "https://c1arissa.github.io/minimal" # the base hostname & protocol for your site
-#twitter_username: fareez_ahamed
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://c1arissa.github.io" # the base hostname & protocol for your site
 github_username:  c1arissa
 linkedin: clarissapodell
 google_analytics: UA-112251458-1 
