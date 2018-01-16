@@ -104,14 +104,15 @@ $on-laptop:        800px;
 			width: 100%;
 			float: none;
 			display:block;
+			background: #fff;
 			//text-align: center;
 			//border: 1px solid $color-primary;
 			//border-bottom: 1px solid $color-primary;
 			//padding: 14px 16px;
 		}
-		ul {
-			border: 1px solid $color-primary;
-		}
+		//ul {
+		//	border: 1px solid $color-primary;
+		//}
 		li {
 			text-align: center;
 			border-bottom: 1px solid $color-primary;
