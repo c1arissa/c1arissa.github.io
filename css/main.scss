@@ -72,10 +72,9 @@ $on-laptop:        800px;
 	.title {
 		//padding-top: 0.8rem;
 		font-family: 'Raleway', sans-serif;
-		color: #a6a6a6;
 		display: inline-block;
-		//@extend h5;
-		font-size: 1.4em;
+		@extend h5;
+		//font-size: 1.4em;
 		line-height: 1.5;
 		padding: 14px 14px;
 	}
