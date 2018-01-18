@@ -78,6 +78,10 @@ $on-laptop:        800px;
 		line-height: 1.5;
 		padding: 14px 14px;
 	}
+	
+	.title a:hover {
+		color: #9b4dca;
+	}
 
 	.navigation-item { 
 		font-weight: 500;
@@ -319,6 +323,7 @@ h3 {
 
 
 .hero {
+  margin: auto;
   display: table;
   width: 100%;
   height: 100%;
