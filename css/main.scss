@@ -73,14 +73,16 @@ $on-laptop:        800px;
 		//padding-top: 0.8rem;
 		font-family: 'Raleway', sans-serif;
 		display: inline-block;
-		@extend h4;
+		@include relative-font-size(1.625);
+		//@extend h4;
+		letter-spacing: -1px;
 		//font-size: 1.4em;
 		line-height: 1.5;
 		padding: 14px 14px;
-	}
-	
-	.title a:hover {
-		color: #9b4dca;
+		
+		&:hover {
+			color: #9b4dca;
+		}
 	}
 
 	.navigation-item { 
@@ -277,8 +279,9 @@ hr {
  */
 .icon {
 	display: inline-block;
-        width: 32px;
         height: 32px;
+	width: auto;
+	//width: 32px;
         vertical-align: middle;
 	border:0;
 
