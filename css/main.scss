@@ -28,6 +28,11 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$phone-large: 420px;
+$tablet-small: 768px;
+$tablet: 1024px;
+$desktop: 1240px;
+
 
 
 // Use media queries like this:
@@ -80,16 +85,18 @@ $on-laptop:        800px;
 		line-height: 1.5;
 		padding: 14px 14px;
 		
-		&:hover {
-			color: #9b4dca;
+		a {
+			&:hover {
+				color: #9b4dca;
+			}
 		}
-	}
+	} //title
 
 	.navigation-item { 
 		font-weight: 500;
 		font-family: 'Raleway', sans-serif;
 		display: inline-block;
-		text-align: center;
+		text-align: left;
 		line-height: 1.5;
 		//font-size: 1.7rem;
 		//padding: 14px 16px;
@@ -303,7 +310,7 @@ hr {
 
 .img-circle {
 	padding: 5px;
-	border: 1px solid $color-quaternary;
+	border: 1px solid $grey-color; // $color-quaternary;
 	border-radius:50%;
 	vertical-align:middle;
 	//max-width: 100%;
@@ -327,12 +334,24 @@ h3 {
 
 .hero {
   margin: auto;
+  max-width: 420px;
   display: table;
   width: 100%;
   height: 100%;
+  padding-left: 1.5 * 1em;
+  padding-right: 1.5 * 1em;
+	
+  @include media-query($tablet-small) {
+	  max-width: 768px;
+  }
+	
+  @include media-query($desktop) {
+	  max-width: 960px;
+  }
+	
 }
 
-.hero-inner{
+.hero-inner {
   width: 100%;
   display: table-cell;
   vertical-align: middle;
