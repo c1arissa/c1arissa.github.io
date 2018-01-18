@@ -72,12 +72,12 @@ $on-laptop:        800px;
 	.title {
 		//padding-top: 0.8rem;
 		font-family: 'Raleway', sans-serif;
-		color: $grey-color-light;
+		color: #a6a6a6;
 		display: inline-block;
 		@extend h5;
 		//font-size: 20px;
 		line-height: 1.5;
-		padding: 14px 16px;
+		padding: 14px 14px;
 	}
 
 	.navigation-item { 
@@ -273,8 +273,8 @@ hr {
  */
 .icon {
 	display: inline-block;
-        width: 30px;
-        height: 30px;
+        width: 32px;
+        height: 32px;
         vertical-align: middle;
 	border:0;
 
@@ -298,7 +298,7 @@ hr {
 	border-radius:50%;
 	vertical-align:middle;
 	//max-width: 100%;
-	width: 200px;
+	width: 180px;
 	//height: 150px;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
