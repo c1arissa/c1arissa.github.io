@@ -272,8 +272,8 @@ hr {
  */
 .icon {
 	display: inline-block;
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         vertical-align: middle;
 	border:0;
 
@@ -296,7 +296,7 @@ hr {
 .img-circle {
 	border-radius:50%;
 	vertical-align:middle;
-	max-width: 100px;
+	max-width: 100%;
 	// width: 150px;
 	//height: 200px;
 	-webkit-border-radius: 100px;
