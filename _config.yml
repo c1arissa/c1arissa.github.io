@@ -19,8 +19,12 @@ linkedin: clarissapodell
 google_analytics: UA-112251458-1 
 
 # Build settings
-markdown: kramdown
 highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+syntax_highlighter: rouge
 
 plugins:
   - jekyll-paginate
