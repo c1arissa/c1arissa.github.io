@@ -3,12 +3,11 @@ layout: home
 title: Home
 ---
 
-# Hi there!
 ## Hi there!
 <h3>I'm Fernando Moreira, a Frontend Engineer.</h3>
 <h3>Enthusiast performance, responsive design and usability, always looking for the best project and good coffee.</h3>
 
-### Hi there! I'm **{{ site.author }}**, a student studying Cybersecurity.
+### I'm **{{ site.author }}**, a student studying Cybersecurity.
 ### My interests are exploit writing, reverse engineering, and
 ### vulnerability discovery and research.
 ### I'm passionate about a career in Computer Security.
