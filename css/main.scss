@@ -19,7 +19,7 @@ $spacing-unit:     30px;
 // $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 5%);
+$grey-color-light: lighten($grey-color, 15%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // // Width of the content area
@@ -72,6 +72,7 @@ $on-laptop:        800px;
 	.title {
 		//padding-top: 0.8rem;
 		font-family: 'Raleway', sans-serif;
+		color: $grey-color-light;
 		display: inline-block;
 		@extend h5;
 		//font-size: 20px;
@@ -94,7 +95,7 @@ $on-laptop:        800px;
 		margin: 0;
 		padding: 0;
 		overflow: hidden;
-		padding-top: 1.0rem;
+		padding-top: 0.8rem;
 	}
 	
 	@include media-query($on-palm) {
