@@ -3,8 +3,8 @@ layout: home
 title: Home
 ---
 
-#Hi there!
-##Hi there!
+# Hi there!
+## Hi there!
 <h3>I'm Fernando Moreira, a Frontend Engineer.</h3>
 <h3>Enthusiast performance, responsive design and usability, always looking for the best project and good coffee.</h3>
 
