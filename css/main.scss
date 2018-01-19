@@ -118,6 +118,11 @@ $desktop: 1240px;
 		overflow: hidden;
 		padding-top: 0.8rem;
 	}
+	
+	.navicon {
+		display: none;
+	}
+	
 	// Responsive Top Nav
 	@include media-query($on-palm) {
 		@media screen and (max-width: 600px) {
