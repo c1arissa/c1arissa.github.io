@@ -112,8 +112,8 @@ $desktop: 1240px;
 	// Responsive Top Nav
 	@include media-query($on-palm) {
 		@media screen and (max-width: 600px) {
-			.navigation-item a:not(:first-child) {display: none;}
-			.navigation-item a.navicon {
+			.navigation-list a:not(:first-child) {display: none;}
+			.navigation-list a.navicon {
 				float: right;
 				display: block;
 			}
@@ -122,66 +122,19 @@ $desktop: 1240px;
 	
 	@include media-query($on-palm) {
 		@media screen and (max-width: 600px) {
-			.navigation-item.responsive {position: relative;}
-			.navigation-item.responsive .navicon {
+			.navigation-list.responsive {position: relative;}
+			.navigation-list.responsive .navicon {
 				position: absolute;
 				right: 0;
 				top: 0;
 			}
-			.navigation-item.responsive a {
+			.navigation-list.responsive a {
 				float: none;
 				display: block;
 				text-align: left;
 			}
 		}
-	}
-	
-	@include media-query($on-palm) {
-	@media screen and (max-width: 600px){
-		.navigation-item, .title, .float-left, 
-		.float-right {
-			width: 100%;
-			float: none;
-			display:block;
-			padding: 0px;
-			margin: 0px;
-			font-size: 16px;
-			text-align: center;
-			background-color: #f1f1f1;
-			border-top: 1px solid $color-secondary;
-			border-right: 1px solid $color-secondary;
-			border-left: 1px solid $color-secondary;
-			//text-align: center;
-			//border: 1px solid $color-primary;
-			//border-bottom: 1px solid $color-primary;
-			//padding: 14px 16px;
-		}
-		//.navigation-item {
-		//	border: 1px solid $color-secondary;
-		//}
-		.icon {
-			width: 18px;
-			height: 18px;
-		}
-		//ul {
-		//	border: 1px solid $color-primary;
-		//}
-		li {
-			text-align: center;
-			padding: 0px;
-			margin: 0px;
-			//border-bottom: 1px solid $color-secondary;
-		}
-		li a.active {
-			background-color: $color-quaternary;
-		}
-		.navigation-item li:last-child {
-			border-bottom: 1px solid $color-secondary;
-		}
-		
-		}
-	}
-	
+	}	
 }//navigation	
 
 
