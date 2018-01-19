@@ -235,16 +235,18 @@ $desktop: 1240px;
   user-select: none;
 }
 
-@media screen and (min-width: 40em) {
-  .js .nav-collapse {
-    position: relative;
-  }
-  .js .nav-collapse.closed {
-    max-height: none;
-  }
-  .nav-toggle {
-    display: none;
-  }
+@include media-query($on-palm) {
+	@media screen and (min-width: 40em) {
+		.js .nav-collapse {
+			position: relative;
+		}
+		.js .nav-collapse.closed {
+			max-height: none;
+		}
+		.nav-toggle {
+			display: none;
+		}
+	}
 }
 
 
@@ -273,11 +275,13 @@ $desktop: 1240px;
   float: left;
 }
 
-@media screen and (min-width: 40em) {
-  .nav-collapse {
-    float: right;
-    width: auto;
-  }
+@include media-query($on-palm) {
+	@media screen and (min-width: 40em) {
+		.nav-collapse {
+			float: right;
+			width: auto;
+		}
+	}
 }
 
 .nav-collapse li {
@@ -285,10 +289,12 @@ $desktop: 1240px;
   width: 100%;
 }
 
-@media screen and (min-width: 40em) {
-  .nav-collapse li {
-    width: auto;
-  }
+@include media-query($on-palm) {
+	@media screen and (min-width: 40em) {
+		.nav-collapse li {
+			width: auto;
+		}
+	}
 }
 
 .nav-collapse a {
@@ -307,15 +313,17 @@ $desktop: 1240px;
   background: #b73214;
 }
 
-@media screen and (min-width: 40em) {
-  .nav-collapse a {
-    border-left: 1px solid white;
-    padding: 1.02em 2em;
-    text-align: center;
-    border-top: 0;
-    float: left;
-    margin: 0;
-  }
+@include media-query($on-palm) {
+	@media screen and (min-width: 40em) {
+		.nav-collapse a {
+			border-left: 1px solid white;
+			padding: 1.02em 2em;
+			text-align: center;
+			border-top: 0;
+			float: left;
+			margin: 0;
+		}
+	}
 }
 
 .nav-collapse ul ul a {
@@ -323,10 +331,12 @@ $desktop: 1240px;
   padding-left: 2em;
 }
 
-@media screen and (min-width: 40em) {
-  .nav-collapse ul ul a {
-    display: none;
-  }
+@include media-query($on-palm) {
+	@media screen and (min-width: 40em) {
+		.nav-collapse ul ul a {
+			display: none;
+		}
+	}
 }
 
 
