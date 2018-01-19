@@ -109,6 +109,32 @@ $desktop: 1240px;
 		overflow: hidden;
 		padding-top: 0.8rem;
 	}
+	// Responsive Top Nav
+	@include media-query($on-palm) {
+		@media screen and (max-width: 600px) {
+			.navigation a:not(:first-child) {display: none;}
+			.navigation a.icon {
+				float: right;
+				display: block;
+			}
+		}
+	}
+	
+	@include media-query($on-palm) {
+		@media screen and (max-width: 600px) {
+			.navigation.responsive {position: relative;}
+			.navigation.responsive .icon {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+			.navigation.responsive a {
+				float: none;
+				display: block;
+				text-align: left;
+			}
+		}
+	}
 	
 	@include media-query($on-palm) {
 	@media screen and (max-width: 600px){
