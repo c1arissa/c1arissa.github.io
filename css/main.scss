@@ -143,11 +143,6 @@ $desktop: 1240px;
 				position: absolute;
 				right: 0;
 				top: 0;
-				width: 36px;
-				height: 36px;
-				z-index: 2;
-				background-color: $color-initial;
-				border: 1px solid $grey-color-light;
 			}
 			.navigation-list.responsive a {
 				float: none;
@@ -158,7 +153,63 @@ $desktop: 1240px;
 	}	
 }//navigation	
 
+#open{
+	display: none;
+}
+.hidden-desktop{
+	display: none;
+}
+/* Portrait tablet to landscape and desktop */
+// @include media-query($on-palm) {
+@media (min-width: 768px) and (max-width: 979px) {
+	.box{
+		width: 49%;
+		margin-bottom: 5%;
+	}
 
+	ul li:nth-child(3) .box{
+		clear: both;
+	}
+
+	ul li:nth-child(2n) .box{
+		margin-right: 0;
+		clear: right;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	body{
+		padding: 0 .5em;
+	}
+	.container{
+		width: 90%;
+	}
+	.navigation {
+		height: 0;
+		overflow: hidden;
+		-webkit-transition: all .3s ease;
+	}
+	input[type="checkbox"]:checked + .navigation{
+		height: 205px;
+	}
+	.navigation > a {
+		padding: 0 1em;
+		display: block;
+		border-bottom: solid 1px rgba(255,255,255,.1);
+	}
+	h1{
+		padding: .5em 0;
+	}
+	.float-left,
+	.float-right{
+		width: 100%;
+		text-align: center;
+	}
+	.hidden-desktop{
+		display: block;
+	}
+}
 
 /**
  * Body
