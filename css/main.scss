@@ -67,7 +67,8 @@ $desktop: 1240px;
 	top:0;
 	left:0;
 	width: 100%;
-	background-color: $color-initial;
+	//background-color: $color-initial;
+	background-color: $color-tertiary;
 	border-bottom: 2px solid $color-primary;
 
 	.container {
