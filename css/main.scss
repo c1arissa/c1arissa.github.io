@@ -53,10 +53,10 @@ $desktop: 1240px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "milligram"
-	"nav"
-        // "layout"
-        //"syntax-highlighting"
 ;
+
+@import "nav";
+
 
 /**
  * Nav
