@@ -1,42 +1,39 @@
-<nav class="navigation">
+<header class="navigation">
 	<div class="container">
 		
 		<div class="float-left">
 			<img class="icon" src="/favicon.png" alt="unicorn">
-			<a class="navigation-title" href="{{ site.baseurl }}/index.html">
+			<a class="navigation-title" href="{{ site.baseurl }}/index.html" data-scroll>
 			<h1 class="title"><span class="first">clarissa</span><span class="last">podell</span></h1>
 			</a>
 	  </div>
 		
 		<div class="float-right">
-			<!-- <nav> 
-			<a href="#" id="menu-icon"></a> -->
-			<a href="javascript:void(0);" style="font-size:15px;" class="navicon"><i class="fa fa-bars"></i></a>
+			<!-- <a href="#" id="menu-icon"></a> 
+			<a href="javascript:void(0);" style="font-size:15px;" class="navicon"><i class="fa fa-bars"></i></a> -->
 
-				
+			    <nav class="nav-collapse">	
 			    <ul class="navigation-list">
-					<li class="navigation-item"><a href="{{ site.baseurl }}/about"> About</a></li>
-					<li class="navigation-item"><a href="{{ site.baseurl }}/blog"> Blog</a></li>
-					<li class="navigation-item"><a href="{{ site.baseurl }}/cv"> Resume</a></li>
-					<li class="navigation-item"><a href="{{ site.baseurl }}/contact"> Contact</a></li>
-				    
+					<li class="navigation-item"><a href="{{ site.baseurl }}/about" data-scroll> About</a></li>
+					<li class="navigation-item"><a href="{{ site.baseurl }}/blog" data-scroll> Blog</a></li>
+					<li class="navigation-item"><a href="{{ site.baseurl }}/cv" data-scroll> Resume</a></li>
+					<li class="navigation-item"><a href="{{ site.baseurl }}/contact" data-scroll> Contact</a></li>
 				</ul>
+			   </nav>
+			
 			</div>
 		
 	</div>
-</nav>
+</header>
 
-      <a href="#home" class="logo" data-scroll>Fixed Nav</a>
-      <nav class="nav-collapse">
-        <ul>
+     <!--   <ul>
           <li class="menu-item active"><a href="#home" data-scroll>Home</a></li>
           <li class="menu-item"><a href="#about" data-scroll>About</a></li>
           <li class="menu-item"><a href="#projects" data-scroll>Projects</a></li>
           <li class="menu-item"><a href="#blog" data-scroll>Blog</a></li>
           <li class="menu-item"><a href="http://www.google.com" target="_blank">Google</a></li>
-        </ul>
-      </nav>
-
+        </ul> -->
+     
     <script src="js/fastclick.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/fixed-responsive-nav.js"></script>
