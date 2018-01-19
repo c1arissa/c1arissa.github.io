@@ -16,6 +16,7 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/nav.scss" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css"
 href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400i,500i|Open+Sans:400,600,700,400i,600i|Source+Sans+Pro:400,600,700,400i,600i|Raleway:300,300i,400,400i,500,500i,600,600i,700">
@@ -25,8 +26,7 @@ href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,400i,500i|Open+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   
-  <script src="static/js/responsive-nav.js"></script>
-  <link href="https://blog.adtile.me/stylesheets/styles-v16.css" rel="stylesheet" type="text/css" />
+  <script src="static/js/nav.js"></script>
   
   {% if site.google_analytics %}
      {% include analytics.html %}
