@@ -342,10 +342,14 @@ h3 {
 	
   @include media-query($tablet-small) {
 	  max-width: 768px;
+	  padding-left: 1em;
+	  padding-right: 1em;
   }
 	
   @include media-query($phone-large) {
 	  max-width: 420px;
+	  padding-left: 1em;
+	  padding-right: 1em;
   }
 	
 }
