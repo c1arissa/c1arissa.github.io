@@ -11,12 +11,24 @@
 
 <div class="list-group">
   <ul class="navigation-list float-right">
-  <li class="navigation-item"><i class="fa fa-user-o fa-fw"></i><a class="list-group-item" href="{{ site.baseurl }}/about"> About</a></li>
-  <li class="navigation-item"><i class="fa fa-pencil fa-fw"></i><a class="list-group-item" href="{{ site.baseurl }}/blog"> Blog</a></li>
-  <li class="navigation-item"><i class="fa fa-paperclip fa-fw"></i><a class="list-group-item" href="{{ site.baseurl }}/cv"> Resume</a></li>
-  <li class="navigation-item"><i class="fa fa-paper-plane-o fa-fw"></i><a class="list-group-item" href="{{ site.baseurl }}/contact"> Contact</a></li>
+  <li class="navigation-item" id="myTopnav"><i class="fa fa-user-o fa-fw"></i><a class="list-group-item" href="{{ site.baseurl }}/about"> About</a></li>
+  <li class="navigation-item" id="myTopnav"><i class="fa fa-pencil fa-fw"></i><a class="list-group-item" href="{{ site.baseurl }}/blog"> Blog</a></li>
+  <li class="navigation-item" id="myTopnav"><i class="fa fa-paperclip fa-fw"></i><a class="list-group-item" href="{{ site.baseurl }}/cv"> Resume</a></li>
+  <li class="navigation-item" id="myTopnav"><i class="fa fa-paper-plane-o fa-fw"></i><a class="list-group-item" href="{{ site.baseurl }}/contact"> Contact</a></li>
 </ul>
 </div>
+	  <a href="javascript:void(0);" style="font-size:15px;" class="navicon" onclick="myFunction()">&#9776;</a>
+	  
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navigation-item") {
+        x.className += " responsive";
+    } else {
+        x.className = "navigation-item";
+    }
+}
+</script>
 
 </section>
 </nav>
