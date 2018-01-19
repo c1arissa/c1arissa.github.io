@@ -82,7 +82,8 @@ $desktop: 1240px;
 		@extend h4;
 		letter-spacing: -2px;
 		//font-size: 1.4em;
-		line-height: 1.5;
+		//line-height: 1.5;
+		line-height: 1.5 * 16px * 2.25;
 		padding: 14px 14px;
 		
 		a {
@@ -142,6 +143,11 @@ $desktop: 1240px;
 				position: absolute;
 				right: 0;
 				top: 0;
+				width: 36px;
+				height: 36px;
+				z-index: 2;
+				background-color: $color-initial;
+				border: 1px solid $grey-color-light;
 			}
 			.navigation-list.responsive a {
 				float: none;
