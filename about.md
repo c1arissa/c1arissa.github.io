@@ -109,7 +109,7 @@ I spend most of my free time outside of school learning new skills and testing r
   <div class="row">
     <div class="small-12 medium-4 columns">
       <div class="author-image">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/480px-President_Barack_Obama.jpg">
+        <img src="/static/img/purp.jpg">
       </div>
       <div class="author-social">
         <a href="#">
