@@ -7,7 +7,7 @@
     </div>
     <nav>
       <div class="nav-mobile">
-        <a id="nav-toggle" href="javascript:void(0);"><span></span></a>
+        <a id="nav-toggle" onclick="myFunction(this)" href="#!"><span></span></a>
       </div>
       <ul class="nav-list">
         <li>
@@ -27,5 +27,12 @@
         </li>
       </ul>
     </nav>
+	  	  
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
+	  
   </div>
 </section>
