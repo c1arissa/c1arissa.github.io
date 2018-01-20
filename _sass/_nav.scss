@@ -157,13 +157,14 @@ nav {
 
 .brand {
   font-family: 'Raleway', sans-serif;
+  @extend h4;
   letter-spacing: -2px;
   position: absolute;
   padding-left: 20px;
   float: left;
   line-height: $nav-height;
   //text-transform: uppercase;
-  font-size: 1.6em;
+  //font-size: 1.6em;
   a,
   a:visited {
     color: $nav-font-color;
