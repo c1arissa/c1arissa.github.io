@@ -225,10 +225,6 @@ You can find the source code for Jekyll at
     <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. .</p>
     <h4>Subheader</h4>
     <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-      <div class="thumbnail">
-        <img src="https://placehold.it/1024x300?text=wide+image" alt="">
-      </div>
-      <p class="caption">Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
     </div>
     <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibuset magnis dis parturient montes, nascetur ridiculus mus.</p>
     <h4>Subheader</h4>
