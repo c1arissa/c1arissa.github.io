@@ -150,3 +150,96 @@ You can find the source code for the Millikyl theme at:
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
+
+
+
+<style>
+.flexible-article-image-full .thumbnail {
+  width: 100%;
+}
+.flexible-article-image-full .thumbnail img {
+  width: 100%;
+}
+.flexible-article-image-full .caption {
+  font-size: 0.9rem;
+}
+
+.flexible-article-image-left {
+  float: left;
+  margin: 1rem 1.5rem 0 0;
+  max-width: 12.5rem;
+}
+
+.flexible-article-image-left .caption {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .flexible-article-image-left {
+    float: none;
+    max-width: 100%;
+    margin: 0;
+  }
+  .flexible-article-image-left .thumbnail {
+    width: 100%;
+  }
+  .flexible-article-image-left .thumbnail img {
+    width: 100%;
+  }
+}
+
+.flexible-article-image-right {
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+  max-width: 12.5rem;
+}
+
+.flexible-article-image-right .caption {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .flexible-article-image-right {
+    float: none;
+    max-width: 100%;
+    margin: 0;
+  }
+  .flexible-article-image-right .thumbnail {
+    width: 100%;
+  }
+  .flexible-article-image-right .thumbnail img {
+    width: 100%;
+  }
+}
+</style>
+
+<div class="flexible-article-images-container">
+  <div class="flexible-article-content">
+    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. </p>
+    <div class="flexible-article-image-left">
+      <div class="thumbnail">
+        <img src="https://placehold.it/200?text=left+image" alt="">
+      </div>
+      <p class="caption">Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+    </div>
+    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. .</p>
+    <h4>Subheader</h4>
+    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+      <div class="thumbnail">
+        <img src="https://placehold.it/1024x300?text=wide+image" alt="">
+      </div>
+      <p class="caption">Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+    </div>
+    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibuset magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <h4>Subheader</h4>
+    <div class="flexible-article-image-right">
+      <div class="thumbnail">
+        <img src="https://placehold.it/200?text=right+image" alt="">
+      </div>
+      <p class="caption">Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+    </div>
+    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscingelit.</p>
+  </div>
+</div>
+
+
