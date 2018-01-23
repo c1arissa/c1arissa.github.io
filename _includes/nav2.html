@@ -1,68 +1,40 @@
-<div class="header">
-			<div class="logo">
-				<a href="//toddmotto.com" target="_blank">
-					<img src="favicon.jpg" alt="Logo" class="logo-img">
-				</a>
-			</div>
-			<ul class="demo-nav">
-				<li class="demo-nav-link">
-					<a href="http://toddmotto.com/building-an-html5-responsive-menu-with-media-queries-javascript">Go to tutorial</a>
-				</li>
-			</ul>
-		</div>
-		
-		<div class="wrapper">
-			<div class="main">
-				
-				<!-- Nav -->
-				<nav class="nav">
-					<ul class="nav-list">
-						<li class="nav-item"><a href="#">Home</a></li>
-						<li class="nav-item"><a href="#">About</a></li>
-						<li class="nav-item"><a href="#">Services</a></li>
-						<li class="nav-item"><a href="#">Portfolio</a></li>
-						<li class="nav-item"><a href="#">Testimonials</a></li>
-						<li class="nav-item"><a href="#">Contact</a></li>
-					</ul>
-				</nav>
-				<!-- /Nav -->
-				
-			
-			</div>
-		</div>
-		
-		<script>
-		(function () {
-		
-		    // Create mobile element
-		    var mobile = document.createElement('div');
-		    mobile.className = 'nav-mobile';
-		    document.querySelector('.nav').appendChild(mobile);
-		
-		    // hasClass
-		    function hasClass(elem, className) {
-		        return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
-		    }
-		
-		    // toggleClass
-		    function toggleClass(elem, className) {
-		        var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
-		        if (hasClass(elem, className)) {
-		            while (newClass.indexOf(' ' + className + ' ') >= 0) {
-		                newClass = newClass.replace(' ' + className + ' ', ' ');
-		            }
-		            elem.className = newClass.replace(/^\s+|\s+$/g, '');
-		        } else {
-		            elem.className += ' ' + className;
-		        }
-		    }
-		
-		    // Mobile nav function
-		    var mobileNav = document.querySelector('.nav-mobile');
-		    var toggle = document.querySelector('.nav-list');
-		    mobileNav.onclick = function () {
-		        toggleClass(this, 'nav-mobile-open');
-		        toggleClass(toggle, 'nav-active');
-		    };
-		})();
-		</script>
+<section class="navigation">
+  <div class="nav-container">
+    <div class="brand">
+      <a href="#!">Logo</a>
+    </div>
+    <nav>
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span></span></a>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <a href="#!">Home</a>
+        </li>
+        <li>
+          <a href="#!">About</a>
+        </li>
+        <li>
+          <a href="#!">Services</a>
+          <ul class="nav-dropdown">
+            <li>
+              <a href="#!">Web Design</a>
+            </li>
+            <li>
+              <a href="#!">Web Development</a>
+            </li>
+            <li>
+              <a href="#!">Graphic Design</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#!">Pricing</a>
+        </li>
+        <li>
+          <a href="#!">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
