@@ -163,17 +163,19 @@ body {
  */
 
 .site-footer {
-	padding: 25px;
-	margin: 65px auto 100px;
+	
+	padding-top: 35px;
+	// padding: 25px;
+	margin: 50px auto 100px;
 	font-family: 'Raleway', 'Source Sans Pro', sans-serif;
-	background: $color-tertiary;
+	background-color: $color-tertiary;
 	
 	.wrapper {
+		margin: 0 auto;
 		border-top: 1px solid #606c76; //#8f9aa3;
 		padding-top: 20px;
 		width: auto;
 		max-width: 800px;
-		margin: 0 auto;
 		//width: 70%;
 	}
 
