@@ -280,14 +280,10 @@ permalink: /contact/
     <tr>
       <td><a class="social-button" href="#"><i class="fa fa-facebook"></i></a></td>
       <td>27</td>
-      <td>1,91</td>
-      <td>Akron, OH</td>
     </tr>
     <tr>
-      <td>Klay Thompson</td>
+      <td><i class="fa fa-facebook social-button"></i></td>
       <td>25</td>
-      <td>2,01</td>
-      <td>Los Angeles, CA</td>
     </tr>
   </tbody>
 </table>
