@@ -233,12 +233,16 @@ permalink: /contact/
       <td><a href="mailto:{{ site.email }}">{{ site.email }}</a></td>
     </tr>
     <tr>
-      <td><i class="fa fa-mobile social-button"></i></td>
+      <td><i class="fa fa-phone social-button"></i></td>
       <td>(631) 708-2725</td>
     </tr>
     <tr>
       <td><i class="fa fa-linkedin social-button"></i></td>
       <td><a href="https://www.linkedin.com/in/{{ site.linkedin }}/">{{ site.linkedin }}</a></td>
+    </tr>
+    <tr>
+      <td><i class="fa fa-github social-button"></i></td>
+      <td><a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></td>
     </tr>
   </tbody>
 </table>
