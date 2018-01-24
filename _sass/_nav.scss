@@ -160,6 +160,8 @@ nav {
   padding-left: 20px;
   float: left;
   line-height: $nav-height;
+  @extend h4;
+  letter-spacing: -2px;
   //text-transform: uppercase;
   //font-size: 1.6em;
   a,
@@ -167,11 +169,6 @@ nav {
     color: $nav-font-color;
     text-decoration: none;
   }
-	.title {
-		font-family: 'Raleway', sans-serif;
-		@extend h4;
-		letter-spacing: -2px;
-	}
 }
 
 .first {
