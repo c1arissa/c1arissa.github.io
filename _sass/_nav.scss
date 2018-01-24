@@ -17,7 +17,7 @@ nav {
       a {
         display: block;
         padding: 0 20px;
-        line-height: 70px; // $nav-height;
+        line-height: $nav-height;
         background: $nav-background;
         color: $nav-font-color;
         text-decoration: none;
