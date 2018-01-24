@@ -161,10 +161,9 @@ nav {
   padding-left: 20px;
   float: left;
   line-height: $nav-height;
-  @extend h4;
-  letter-spacing: -2px;
+  //@extend h4;
   //text-transform: uppercase;
-  //font-size: 1.6em;
+  font-size: 1.8em;
   a,
   a:visited {
     color: $nav-font-color;
@@ -173,10 +172,11 @@ nav {
 }
 
 .first {
-			font-weight:300;
-			color:#999999;
+	font-weight:300;
+	color:#999999;
+	letter-spacing: -2px;
 }
 .last {
-			font-weight:900;
-			color:#505a62;
+	font-weight:900;
+	color:#505a62;
 }
