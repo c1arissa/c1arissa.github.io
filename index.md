@@ -3,7 +3,6 @@ layout: home
 title: Home
 ---
 
-# Hi there!
 <h3>I'm Clar, a Frontend Engineer.</h3>
 <h3>Enthusiast performance, responsive design and usability, always looking for the best project and good coffee.</h3>
 
