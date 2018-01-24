@@ -110,16 +110,8 @@ permalink: /contact/
 }
 </style>
 
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-check-square"></i>List icons</li>
-  <li><i class="fa-li fa fa-check-square"></i>can be used</li>
-  <li><i class="fa-li fa fa-spinner fa-spin"></i>as bullets</li>
-  <li><i class="fa-li fa fa-square"></i>in lists</li>
-</ul>
-
-
 <ul class="list-group">
-  <li class="list-group-item"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;List Group Item 1</li>
+  <li class="list-group-item"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List Group Item 1</li>
   <li class="list-group-item">List Group Item 2</li>
   <li class="list-group-item">List Group Item 3</li>
   <li class="list-group-item disabled">List Group Item 4 (Disabled)</li>
@@ -137,8 +129,8 @@ permalink: /contact/
   display: inline-block;
   position: relative;
   cursor: pointer;
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 5.125rem;
+  height: 5.125rem;
   border: 0.125rem solid transparent;
   padding: 0;
   text-decoration: none;
