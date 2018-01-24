@@ -110,6 +110,14 @@ permalink: /contact/
 }
 </style>
 
+<div class="list-group">
+  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+  <a class="list-group-item" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+  <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+</div>
+
+
 <ul class="list-group">
   <li class="list-group-item">List Group Item 1</li>
   <li class="list-group-item">List Group Item 2</li>
@@ -143,12 +151,7 @@ permalink: /contact/
   transition: all 0.5s ease;
   margin-right: 0.25rem;
   margin-bottom: 0.25rem;
-}
-
-.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
-  -webkit-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
+  background: #9b4dca;
 }
 
 .rounded-social-buttons .social-button.facebook {
