@@ -123,46 +123,6 @@ $desktop: 1240px;
 */
 
 
-/*------------------------------------*\
-    STRUCTURE
-\*------------------------------------*/
-
-.wrapper {
-	max-width:800px;
-	margin:0 auto;
-}
-.header {
-	//height: 5.3rem;
-	position: fixed;
-	top:0;
-	left:0;
-	width: 100%;
-	//background-color: $color-initial;
-	background-color: $color-tertiary;
-	border-bottom: 2px solid $color-primary;
-	// NEW
-	padding:15px 25px;
-	//background:#FFF;
-	//border-left:5px solid #2BA6CB;
-	overflow:hidden;
-}
-.logo {
-	float:left;
-}
-.demo-nav {
-	float:right;
-	margin:12px 0;
-	list-style:none;
-}
-.demo-nav-link {
-	
-}
-.demo-nav-link a {
-	color:#2BA6CB;
-	text-decoration:none;
-}
-
-
 /**
  * Body
  */
