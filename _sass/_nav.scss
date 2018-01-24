@@ -21,7 +21,7 @@ nav {
         background: $nav-background;
         color: $nav-font-color;
         text-decoration: none;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 500;
 	font-family: 'Raleway', sans-serif;
         &:hover {
@@ -60,6 +60,7 @@ nav {
   background: $nav-background;
   height: $nav-height;
   width: $nav-height;
+  margin-right: 10px;
 }
 
 #nav-toggle {
@@ -142,7 +143,7 @@ nav {
 
 .navigation {
 	//height: 5.3rem;
-	height: $nav-height;
+	//height: $nav-height;
 	background: $nav-background;
 	// ----
 	position: fixed;
