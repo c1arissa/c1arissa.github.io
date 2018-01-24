@@ -4,7 +4,7 @@ title: Home
 ---
 
 # Hi there!
-<h3>I'm <strong><em>Clarissa</strong></em>, a Frontend Engineer.</h3>
+### I'm **_Clarissa_**, an undergraduate student in Cybersecurity.
 <h3>Enthusiast performance, responsive design and usability, always looking for the best project and good coffee.</h3>
 
 ### I'm **{{ site.author }}**, a student studying Cybersecurity.
