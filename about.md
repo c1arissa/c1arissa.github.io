@@ -45,6 +45,28 @@ I spend most of my free time outside of school learning new skills and testing r
           </span>
         </a>
 
+```python
+import socket
+
+def fun():
+  s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+  s.connect()
+  s.send("PAYLOAD" + "\n")
+  
+fun()
+```
+
+{% highlight python %}
+import socket
+
+def fun():
+  s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+  s.connect()
+  s.send("PAYLOAD" + "\n")
+  
+fun()
+{% highlight %}
+
 
 Millikyl is a Jekyll theme based on Milligram, a small, clutter free CSS framework.
 
