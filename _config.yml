@@ -17,6 +17,7 @@ url: "https://c1arissa.github.io" # the base hostname & protocol for your site
 github_username:  c1arissa
 linkedin: clarissapodell
 google_analytics: UA-112251458-1 
+highlight_theme: dracula
 
 # Build settings
 highlighter: rouge
