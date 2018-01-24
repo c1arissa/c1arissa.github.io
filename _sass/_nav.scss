@@ -154,11 +154,8 @@ nav {
   max-width: $content-width;
   margin: 0 auto;
 }
-
+		
 .brand {
-  font-family: 'Raleway', sans-serif;
-  @extend h4;
-  letter-spacing: -2px;
   position: absolute;
   padding-left: 20px;
   float: left;
@@ -170,6 +167,11 @@ nav {
     color: $nav-font-color;
     text-decoration: none;
   }
+	.title {
+		font-family: 'Raleway', sans-serif;
+		@extend h4;
+		letter-spacing: -2px;
+	}
 }
 
 .first {
