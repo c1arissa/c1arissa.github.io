@@ -229,12 +229,16 @@ permalink: /contact/
 <table>
   <tbody>
     <tr>
-      <td><i class="fa fa-envelope-o social-button"></i></td>
+      <td><i class="fa fa-envelope social-button"></i></td>
       <td><a href="mailto:{{ site.email }}">{{ site.email }}</a></td>
     </tr>
     <tr>
       <td><i class="fa fa-mobile social-button"></i></td>
       <td>(631) 708-2725</td>
+    </tr>
+    <tr>
+      <td><i class="fa fa-linkedin social-button"></i></td>
+      <td><a href="https://www.linkedin.com/in/{{ site.linkedin }}/">{{ site.linkedin }}</a></td>
     </tr>
   </tbody>
 </table>
