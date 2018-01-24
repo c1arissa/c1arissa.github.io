@@ -278,7 +278,7 @@ permalink: /contact/
 <table>
   <tbody>
     <tr>
-      <td><a class="social-button" href="#"><i class="fa fa-facebook"></i></a></td>
+      <td><i class="fa fa-facebook social-button"></i></a></td>
       <td>27</td>
     </tr>
     <tr>
