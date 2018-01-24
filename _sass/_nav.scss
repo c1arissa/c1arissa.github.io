@@ -21,11 +21,12 @@ nav {
         background: $nav-background;
         color: $nav-font-color;
         text-decoration: none;
-		font-weight: 500;
-		font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
         &:hover {
           background: $link-hover-color;
-          color: $nav-font-color;
+          //color: $nav-font-color;
+	  color: #ffffff;
         }
         &:not(:only-child):after {
         padding-left: 4px;
@@ -57,7 +58,8 @@ nav {
   right: 0;
   background: $nav-background;
   //height: $nav-height;
-  width: $nav-height;
+  //width: $nav-height;
+  width: 100%;
 }
 
 #nav-toggle {
