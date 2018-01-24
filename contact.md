@@ -279,7 +279,7 @@ permalink: /contact/
   <tbody>
     <tr>
       <td><i class="fa fa-facebook social-button"></i></td>
-      <td>27</td>
+      <td>{{ site.email }}</td>
     </tr>
     <tr>
       <td><i class="fa fa-facebook social-button"></i></td>
