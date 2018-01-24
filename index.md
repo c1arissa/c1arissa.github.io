@@ -3,7 +3,8 @@ layout: home
 title: Home
 ---
 
-<h3>I'm Clar, a Frontend Engineer.</h3>
+# Hi there!
+<h3>I'm <strong><em>Clarissa</strong></em>, a Frontend Engineer.</h3>
 <h3>Enthusiast performance, responsive design and usability, always looking for the best project and good coffee.</h3>
 
 ### I'm **{{ site.author }}**, a student studying Cybersecurity.
