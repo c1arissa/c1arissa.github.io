@@ -1,6 +1,7 @@
 ---
 layout: contact
 title: Contact
+permalink: /contact/
 ---
 
 | <i class="fa fa-envelope-o fa-fw"></i>  | [ {{ site.email }} ](mailto:{{ site.email }})  (primary/personal)<br>[clarissa.podell@jjay.cuny.edu](mailto:clarissa.podell@jjay.cuny.edu)  (alternate/school) | 
