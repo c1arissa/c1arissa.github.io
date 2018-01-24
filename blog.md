@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Clarissa's Blog
+permalink: /blog/
 ---
 
 <ul class="posts">
