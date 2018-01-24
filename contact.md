@@ -244,6 +244,10 @@ permalink: /contact/
       <td><i class="fa fa-github social-button"></i></td>
       <td><a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a></td>
     </tr>
+    <tr>
+      <td><i class="fa fa-map-marker social-button"></i></td>
+      <td>Valley Stream, NY 11580</td>
+    </tr>
   </tbody>
 </table>
 </div>
