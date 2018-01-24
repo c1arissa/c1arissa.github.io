@@ -268,11 +268,10 @@ permalink: /contact/
 </div>
 
 
-<div class="rounded-social-buttons">
+
 <ul class="list-group">
   <li class="list-group-item"><i class="fa fa-home social-button" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List Group Item 1</li>
   <li class="list-group-item">List Group Item 2</li>
   <li class="list-group-item">List Group Item 3</li>
   <li class="list-group-item disabled">List Group Item 4 (Disabled)</li>
 </ul>
-</div>
