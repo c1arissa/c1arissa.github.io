@@ -36,7 +36,7 @@ nav {
       ul li {
         min-width: 190px;
         & a {
-          padding: 0px; // 15px
+          padding: 15px; // 15px
           line-height: 0px; //20px
           z-index: 1;
         }
@@ -57,7 +57,7 @@ nav {
   top: 0;
   right: 0;
   background: $nav-background;
-  //height: $nav-height;
+  height: $nav-height;
   width: $nav-height;
 }
 
