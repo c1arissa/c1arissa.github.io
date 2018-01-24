@@ -274,10 +274,21 @@ permalink: /contact/
 </ul>
 </div>
 
-
-| <i class="fa fa-envelope-o social-button"></i>  | [ {{ site.email }} ](mailto:{{ site.email }})  (primary/personal)<br>[clarissa.podell@jjay.cuny.edu](mailto:clarissa.podell@jjay.cuny.edu)  (alternate/school) | 
-| <i class="fa fa-mobile fa-fw"></i> | (631) 708-2725 | 
-| <i class="fa fa-linkedin fa-fw"></i>  | [ {{ site.linkedin }} ](https://www.linkedin.com/in/{{ site.linkedin }}/) | 
-| <i class="fa fa-github-alt fa-fw"></i> | [ {{ site.github_username }} ](https://github.com/{{ site.github_username}}) |
-| <i class="fa fa-map-marker fa-fw"></i> | Valley Stream, NY 11580 |
-| <i class="fa fa-home fa-fw"></i> | 420 N Corona Ave 5<br>Valley Stream, NY<br>11580   | 
+<div class="rounded-social-buttons">
+<table>
+  <tbody>
+    <tr>
+      <td><a class="social-button" href="#"><i class="fa fa-facebook"></i></a></td>
+      <td>27</td>
+      <td>1,91</td>
+      <td>Akron, OH</td>
+    </tr>
+    <tr>
+      <td>Klay Thompson</td>
+      <td>25</td>
+      <td>2,01</td>
+      <td>Los Angeles, CA</td>
+    </tr>
+  </tbody>
+</table>
+</div>
