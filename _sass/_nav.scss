@@ -26,9 +26,9 @@ nav {
 	font-weight: 500;
 	font-family: 'Raleway', sans-serif;
         &:hover {
-          background: $link-hover-color;
+          color: $link-hover-color;
           //color: $nav-font-color;
-	  color: #ffffff;
+	  	  //color: #ffffff;
         }
         &:not(:only-child):after {
         padding-left: 4px;
@@ -120,6 +120,11 @@ nav {
 					a {
 						padding: 15px;
 						line-height: 20px;
+						&:hover {
+							background: $link-hover-color;
+							//color: $nav-font-color;
+							color: #ffffff;
+						}
 					}
 					ul li a {
 						padding-left: 30px;
