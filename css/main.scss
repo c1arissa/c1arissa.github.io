@@ -145,7 +145,7 @@ body {
 }
 
 .avatar {
-  padding-top: 15%;
+  padding-top: 10%;
   padding-bottom: 5%;
 }
 
@@ -177,7 +177,7 @@ body {
 	padding-top: 35px;
 	margin: 60px auto 100px;
 	font-family: 'Raleway', 'Source Sans Pro', sans-serif;
-	background-color: $color-tertiary;
+	//background-color: $color-tertiary;
 	
 	.wrapper {
 		margin: 0 auto;
@@ -308,7 +308,7 @@ hr {
 	    @media (min-width: 40.0rem) {
 			padding: 0;
 			margin: 0;
-			max-width: 640px;
+			width: 640px;
 		}
 	}
 	@include media-query($tablet) {
