@@ -30,6 +30,8 @@ syntax_highlighter: rouge
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jemoji
+  - jekyll-avatar
 
 sitemap:
     filename: "/sitemap.xml"
