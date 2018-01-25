@@ -16,13 +16,14 @@ nav {
       position: relative;
       a {
         display: block;
-        padding: 0 20px;
+        // padding: 0 20px;
+	padding: 14px 16px;
 	padding-top: 1.1rem;
        // line-height: $nav-height;
         background: $nav-background;
         color: $nav-font-color;
         text-decoration: none;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-weight: 500;
 	font-family: 'Raleway', sans-serif;
         &:hover {
