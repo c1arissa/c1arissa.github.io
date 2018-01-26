@@ -60,13 +60,13 @@ nav {
   //height: $nav-height;
   width: $nav-height;
   margin-right: 20px;
-  line-height: $nav-height / 2;
+  //line-height: $nav-height / 2;
 }
 
 #nav-toggle {
   position: absolute;
   left: 18px;
-  top: 15px; //22px;
+  top: 22px;
   cursor: pointer;
   padding: 10px 35px 16px 0px;
   span,
@@ -117,7 +117,7 @@ nav {
 				li {
 					float: none;
 					a {
-						//padding: 15px;
+						padding: 5px;
 						line-height: 20px;
 						&:hover {
 							background: $link-hover-color;
