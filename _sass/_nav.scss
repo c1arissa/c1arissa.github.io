@@ -61,7 +61,7 @@ nav {
   right: 0;
   background: $nav-background;
   //height: $nav-height;
-  //width: $nav-height;
+  width: $nav-height;
   margin-right: 20px;
   line-height: $nav-height / 2;
 }
@@ -69,7 +69,7 @@ nav {
 #nav-toggle {
   position: absolute;
   left: 18px;
-  top: 22px;
+  top: 0px; //22px;
   cursor: pointer;
   padding: 10px 35px 16px 0px;
   span,
@@ -173,8 +173,6 @@ nav {
   padding-left: 20px;
   float: left;
   line-height: $nav-height / 2;
-  //@extend h4;
-  //text-transform: uppercase;
   font-size: 1.8em;
   padding-top: 0.8rem;
   a,
