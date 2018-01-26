@@ -110,14 +110,14 @@ nav {
 		}
 		nav {
 			width: 100%;
-			padding: $nav-height 0 15px;
+			padding: $nav-height 0 5px; // 15
 			ul {
 				display: none;
 				
 				li {
 					float: none;
 					a {
-						padding: 5px;
+						padding: 10px;
 						line-height: 20px;
 						&:hover {
 							background: $link-hover-color;
@@ -165,7 +165,7 @@ nav {
 .brand {
   font-family: 'Raleway', sans-serif;
   position: absolute;
-  padding-left: 20px;
+  //padding-left: 20px;
   float: left;
   line-height: $nav-height / 2;
   font-size: 1.8em;
