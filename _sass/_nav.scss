@@ -63,7 +63,7 @@ nav {
   //height: $nav-height;
   width: $nav-height;
   margin-right: 20px;
-  line-height: 0;
+  line-height: $nav-height / 2;
 }
 
 #nav-toggle {
