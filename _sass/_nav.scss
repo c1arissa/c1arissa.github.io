@@ -152,7 +152,7 @@ nav {
 }
 
 .navigation {
-	//height: $nav-height;
+	height: $nav-height;
 	background: $nav-background;
 	// ----
 	position: fixed;
@@ -186,7 +186,7 @@ nav {
 
 .first {
 	font-weight:300;
-	color:#5D5D5D;
+	color:#808080;
 	letter-spacing: -2px;
 }
 .last {
