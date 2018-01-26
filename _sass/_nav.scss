@@ -17,7 +17,6 @@ nav {
       a {
         display: block;
         padding: 1.375rem 18px 0.8rem;
-	//padding-top: 1.1rem;
         //line-height: $nav-height / 2;
         background: $nav-background;
         color: $nav-font-color;
@@ -168,7 +167,8 @@ nav {
   font-family: 'Raleway', sans-serif;
   position: absolute;
   float: left;
-  padding: 1.375rem 0px 0.8rem;
+  padding-top: 1.375rem;
+  padding-bottom: 0.8rem;
   //line-height: $nav-height / 2;
   font-size: 1.8em;
   a,
