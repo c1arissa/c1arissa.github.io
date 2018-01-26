@@ -169,7 +169,7 @@ nav {
   position: absolute;
   padding-left: 20px;
   float: left;
-  line-height: 1.5; //$nav-height;
+  line-height: $nav-height;
   //@extend h4;
   //text-transform: uppercase;
   font-size: 1.8em;
