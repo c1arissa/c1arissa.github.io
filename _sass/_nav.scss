@@ -1,6 +1,6 @@
 $content-width: 800px;
 $breakpoint: 672px;
-$nav-height: 5.3rem; //70px;
+$nav-height: 5.5rem; //70px;
 $nav-background: $color-tertiary;
 $nav-font-color: $color-primary;
 $link-hover-color: $color-secondary;
@@ -66,7 +66,7 @@ nav {
 #nav-toggle {
   position: absolute;
   left: 18px;
-  top: 12px; //22px;
+  top: 18px; //22px;
   cursor: pointer;
   padding: 10px 35px 16px 0px;
   span,
