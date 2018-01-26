@@ -27,8 +27,6 @@ nav {
 	font-family: 'Raleway', sans-serif;
         &:hover {
           color: $link-hover-color;
-          //color: $nav-font-color;
-	  	  //color: #ffffff;
         }
         &:not(:only-child):after {
         padding-left: 4px;
@@ -39,7 +37,7 @@ nav {
         min-width: 190px;
         & a {
           padding: 15px; // 15px
-          line-height: 0px; //20px
+          line-height: 20px;
           z-index: 1;
         }
       }
@@ -54,7 +52,6 @@ nav {
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 .nav-mobile {
-  padding: 0;
   display: none;
   position: absolute;
   top: 0;
@@ -69,7 +66,7 @@ nav {
 #nav-toggle {
   position: absolute;
   left: 18px;
-  top: 0px; //22px;
+  top: 12px; //22px;
   cursor: pointer;
   padding: 10px 35px 16px 0px;
   span,
