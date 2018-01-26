@@ -16,7 +16,7 @@ nav {
       position: relative;
       a {
         display: block;
-        padding: 1.375rem 18px 1.0rem;
+        padding: 1.375rem 18px 0.8rem;
 	//padding-top: 1.1rem;
         //line-height: $nav-height / 2;
         background: $nav-background;
@@ -169,6 +169,7 @@ nav {
   position: absolute;
   //padding-left: 20px;
   float: left;
+  padding: 1.375rem 18px 0.8rem;
   line-height: $nav-height / 2;
   font-size: 1.8em;
   //padding-top: 1.1rem;
