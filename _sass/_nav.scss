@@ -105,9 +105,6 @@ nav {
 
 @include media-query($breakpoint) {
 	@media only screen and (max-width: $breakpoint) {
-		.navigation {
-			height: 0;
-		}
 		.nav-mobile {
 			display: block;
 		}
