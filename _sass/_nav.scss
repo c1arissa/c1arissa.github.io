@@ -110,6 +110,8 @@ nav {
 	@media only screen and (max-width: $breakpoint) {
 		.nav-mobile {
 			display: block;
+			line-height: 0px;
+			padding: 0px;
 		}
 		nav {
 			width: 100%;
