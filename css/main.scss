@@ -252,8 +252,8 @@ hr {
  */
 .icon {
 	display: inline-block;
-        height: 30px;
-	width: 30px;
+        height: 28px;
+	width: 28px;
 	//width: 32px;
         vertical-align: middle;
 	border:0;
@@ -280,11 +280,11 @@ hr {
 	border-radius:50%;
 	vertical-align:middle;
 	//max-width: 100%;
-	width: 180px;
-	height: 180px;
+	width: 160px;
+	height: 160px;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
-	box-shadow: 0 4px 8px 0 $color-quaternary, 0 -4px 8px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 $color-quaternary, 0 -4px 8px 0 rgba(0, 0, 0, 0.19), box-shadow: 0 0px 12px 0 $color-primary;
 }
 
 .home-heading {
