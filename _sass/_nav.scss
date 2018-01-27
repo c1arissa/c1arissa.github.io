@@ -7,6 +7,7 @@ $link-hover-color: $color-secondary;
 
 nav {
   float: right;
+	line-height: 56px; // new **
   ul {
     list-style: none;
     margin: 0;
@@ -16,20 +17,27 @@ nav {
       position: relative;
       a {
         display: block;
-        padding: 1.375rem 18px 0.8rem;
-        line-height: $nav-height / 2;
+        //padding: 1.375rem 18px 0.8rem;
+        //line-height: $nav-height / 2;
+				line-height: 1.6; // new **
         background: $nav-background;
         color: $nav-font-color;
         text-decoration: none;
-	font-size: 1.1em;
-	font-weight: 500;
-	font-family: 'Raleway', sans-serif;
+				font-size: 1.1em;
+				font-weight: 500;
+				font-family: 'Raleway', sans-serif;
+				
+				// Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+				}
+				
         &:hover {
           color: $link-hover-color;
         }
         &:not(:only-child):after {
-        padding-left: 4px;
-        content: ' ▾';
+					padding-left: 4px;
+					content: ' ▾';
         } 
       }
       ul li {
@@ -53,13 +61,13 @@ nav {
 .nav-mobile {
   display: none;
   position: absolute;
-  top: 0;
-  right: 18px;
+  //top: 0;
+  //right: 18px;
+	float: right; // new **
   background: $nav-background;
-  height: $nav-height;
-  width: $nav-height;
-  //margin-right: 20px;
-  //line-height: $nav-height / 2;
+  //height: $nav-height;
+  //width: $nav-height;
+  line-height: $nav-height; // new **
 }
 
 #nav-toggle {
@@ -156,6 +164,7 @@ nav {
 	left:0;
 	width: 100%;
 	border-bottom: 2px solid $color-primary;
+	min-height: 56px;
 }
 
 .nav-container {
@@ -165,12 +174,17 @@ nav {
 		
 .brand {
   font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+	line-height: 56px;
+	margin-bottom: 0;
+	float: left;
+	/*
   position: absolute;
-  float: left;
   padding-top: 1.375rem;
   padding-bottom: 0.8rem;
   line-height: $nav-height / 2;
-  font-size: 1.8em;
+  font-size: 1.8em; 
+	*/
   a,
   a:visited {
     color: $nav-font-color;
@@ -181,10 +195,10 @@ nav {
 .first {
 	font-weight:300;
 	color:#808080;
-	letter-spacing: -2px;
+	letter-spacing: -1px;
 }
 .last {
 	font-weight:900;
 	color:#333333;
-	letter-spacing: -2px;
+	letter-spacing: -1px;
 }
