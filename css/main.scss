@@ -127,15 +127,39 @@ body {
 .page-content {
 	margin: 0 auto;
 	width: 800px;
+	padding: $spacing-unit 0;
 
 	.wrapper {
 		margin-top: 5.2rem;
 	}
 }
 
+/**
+ * Posts
+ */
+
 .post-header {
-	font-family: 'Raleway', sans-serif;
 	padding-top: 8rem;
+}
+
+.post-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-list {
+	list-style: none;
+	padding-top: 6rem;
+
+	li {
+		padding-top: 20px;
+	}
 }
 
 .page-not-found {
@@ -232,15 +256,6 @@ hr {
 	font-size: 10pt;
 	padding: 8px 0;
 	//word-spacing: 1px;
-}
-
-.post-list {
-	list-style: none;
-	padding-top: 6rem;
-
-	li {
-		padding-top: 20px;
-	}
 }
 
 .social-media-list {
