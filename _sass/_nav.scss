@@ -7,7 +7,7 @@ $link-hover-color: $color-secondary;
 
 nav {
   float: right;
-	line-height: 56px; // new **
+  line-height: 56px; // new **
   ul {
     list-style: none;
     margin: 0;
@@ -17,30 +17,31 @@ nav {
       position: relative;
       a {
         display: block;
-				margin-right: 20px;
+	margin-right: 20px;
         //padding: 1.375rem 18px 0.8rem;
         //line-height: $nav-height / 2;
-				line-height: 1.6; // new **
+	line-height: $nav-height;
         background: $nav-background;
         color: $nav-font-color;
         text-decoration: none;
-				font-size: 1.1em;
-				font-weight: 500;
-				font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
 				
         &:hover {
           color: $link-hover-color;
         }
         &:not(:only-child):after {
-					padding-left: 4px;
-					content: ' ▾';
+	padding-left: 4px;
+	content: ' ▾';
         } 
       }
       ul li {
         min-width: 190px;
         & a {
           padding: 15px;
-          line-height: 20px;
+          //line-height: 20px;
+	  line-height: 1.6; // new **
           z-index: 1;
         }
       }
