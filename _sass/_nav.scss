@@ -61,9 +61,9 @@ nav {
   top: 0;
   right: 18px;
   background: $nav-background;
-  //height: $nav-height;
-  //width: $nav-height;
-  line-height: $nav-height; // new **
+  height: $nav-height;
+  width: $nav-height;
+  //line-height: $nav-height; // new **
 }
 
 #nav-toggle {
