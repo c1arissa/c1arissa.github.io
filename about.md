@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+[Link to a post]({{ site.baseurl }}{% link _posts/2018-07-26-name-of-post.md %})
+
 <div style="font-family: 'Roboto', serif;font-size: 30px;">Font-family: Roboto</div>
 <div style="font-family: 'Roboto', serif;font-size: 24px;">About Me<br>Header text here</div>
 <div style="font-family: 'Roboto', serif;">Your <em>regular body</em> text goes here.  Millikyl is a Jekyll theme based on <strong>Milligram</strong>, a small, clutter free CSS framework.</div>
