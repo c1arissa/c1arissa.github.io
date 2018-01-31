@@ -1,6 +1,6 @@
 $content-width: 800px;
 $breakpoint: 600px;
-$nav-height: 5.3rem; //70px;
+$nav-height: 5.2rem; //70px;
 $nav-background: $color-tertiary;
 $nav-font-color: $color-primary;
 $link-hover-color: $color-secondary;
@@ -11,12 +11,14 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-top: 1.1rem;
     li {
       float: left;
       position: relative;
       a {
         display: block;
-	padding-left: 20px;
+	padding-left: 2rem;
+	//padding-left: 20px;
         //padding: 1.375rem 18px 0.8rem;
 	line-height: $nav-height;
         background: $nav-background;
@@ -171,6 +173,7 @@ nav {
   margin-bottom: 0;
   float: left;
   position: absolute;
+  padding-top: 0.8rem;
  /* padding-top: 1.375rem;
   padding-bottom: 0.8rem;
   line-height: $nav-height / 2;
