@@ -1,6 +1,6 @@
 $content-width: 800px;
 $breakpoint: 600px;
-$nav-height: 56px; //70px;
+$nav-height: 50px; //70px;
 $nav-background: $color-tertiary;
 $nav-font-color: $color-primary;
 $link-hover-color: $color-secondary;
@@ -18,8 +18,7 @@ nav {
         display: block;
 	padding-left: 20px;
         //padding: 1.375rem 18px 0.8rem;
-	//line-height: $nav-height;
-	line-height: 58px;
+	line-height: $nav-height;
         background: $nav-background;
         color: $nav-font-color;
         text-decoration: none;
