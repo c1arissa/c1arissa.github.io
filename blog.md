@@ -4,9 +4,7 @@ title: Clarissa's Blog
 permalink: /blog/
 ---
 
-<div class="home">
-
-  <ul class="post-list">
+<ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -18,7 +16,6 @@ permalink: /blog/
     {% endfor %}
 </ul>
 
-</div>
 
 {% comment %}
 <ul class="posts">
