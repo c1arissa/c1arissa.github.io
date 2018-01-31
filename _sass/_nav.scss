@@ -167,17 +167,16 @@ nav {
 		
 .brand {
   font-family: 'Raleway', sans-serif;
-  font-size: 28px;
+  font-size: 2.4rem;
+  //font-size: 28px;
   //line-height: $nav-height;
   margin-bottom: 0;
   float: left;
   position: absolute;
   padding-top: 0.8rem;
- /* padding-top: 1.375rem;
-  padding-bottom: 0.8rem;
-  line-height: $nav-height / 2;
-  font-size: 1.8em; 
-	*/
+  letter-spacing: -.08rem;
+  line-height: 1.35;
+		
   a,
   a:visited {
     color: $nav-font-color;
@@ -188,10 +187,10 @@ nav {
 .first {
 	font-weight:300;
 	color:#808080;
-	letter-spacing: -2px;
+	//letter-spacing: -2px;
 }
 .last {
 	font-weight:900;
 	color:#333333;
-	letter-spacing: -2px;
+	//letter-spacing: -2px;
 }
