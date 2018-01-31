@@ -2,6 +2,7 @@
 layout: post
 title:  "My first post!!"
 date:   2018-01-24
+author: Clarissa
 categories: blah
 permalink: /:month-:day-:year-:title
 ---
