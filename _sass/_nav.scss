@@ -1,6 +1,6 @@
 $content-width: 800px;
 $breakpoint: 600px;
-$nav-height: 50px; //70px;
+$nav-height: 52px; //70px;
 $nav-background: $color-tertiary;
 $nav-font-color: $color-primary;
 $link-hover-color: $color-secondary;
@@ -167,7 +167,7 @@ nav {
 .brand {
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
-  line-height: 56px;
+  line-height: $nav-height;
   margin-bottom: 0;
   float: left;
   position: absolute;
