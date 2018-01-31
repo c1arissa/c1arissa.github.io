@@ -172,8 +172,10 @@ nav {
   float: left;
   position: absolute;
   padding-top: 0.8rem;
-  letter-spacing: -.08rem;
-  line-height: 1.35;
+  //letter-spacing: -.08rem;
+  //line-height: 1.35;
+  letter-spacing: -.05rem;
+  line-height: 1.5;
 		
   a,
   a:visited {
